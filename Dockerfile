@@ -1,4 +1,4 @@
-FROM openjdk:11-slim
+FROM openjdk:12
 COPY /run.sh /run.sh 
 RUN chmod 777 /run.sh
 RUN yum install wget -y
